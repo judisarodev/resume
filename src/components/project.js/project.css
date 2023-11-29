@@ -1,0 +1,17 @@
+.project{ 
+    width: 280px;
+    background-color: #2E3038;
+    margin-bottom: 20px;
+}
+
+.project__name {
+    border-bottom: solid 2px #1F2027;
+    padding: 2px;
+}
+.project__image{
+    padding: 10px;
+}
+.project__description{
+    border-top: solid 2px #1F2027;
+    padding-top: 10px;
+}

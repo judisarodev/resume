@@ -13,7 +13,7 @@ const skills = [
 
 const Home = () => {
    return (
-    <div className="container">
+    <div className="container home">
         <div className="row">
             <div className="col-md-3">
                 <div className="row">
