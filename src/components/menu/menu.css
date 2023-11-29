@@ -1,0 +1,11 @@
+p{
+    font-size: 12px;
+}
+
+.menu{
+    height: 210px;
+    padding: 10px;
+}
+.menu__title span {
+    font-size: 16px;
+}

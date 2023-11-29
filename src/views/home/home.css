@@ -1,0 +1,26 @@
+.welcome__title{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.welcome__subtitle{
+    margin-bottom: 30px;
+}
+
+.welcome_text{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.skill{
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 35px;
+}
+
+.skill > p{
+    background-color: #2E3038;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px 25px 10px 25px;
+}

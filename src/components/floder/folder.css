@@ -1,0 +1,13 @@
+.folder {
+    margin-top: 70px;
+}
+
+.folder__title{
+    background-color: #2E3038;
+    height: 50px;
+    font-size: 16px;
+}
+
+.folder__content{
+    background-color: #2E3038;
+}
