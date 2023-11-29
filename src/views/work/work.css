@@ -1,7 +1,4 @@
 .work{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px 100px 50px 100px;
-    gap: 20px;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
 }

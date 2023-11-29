@@ -1,10 +1,10 @@
 import React from "react";
 import './project.css';
 
-const Project = ({ name, image, description }) => {
+const Project = ({ name, image, description, url }) => {
    return(
     <>
-        <div className="container-fluid project">
+        <div className="container-fluid project" onClick={() => window.open(url)}>
             <div className="row project__name text-center">
                 <p className="m-0">{ name }</p>
             </div>

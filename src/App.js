@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Home } from './views/home/Home';
 import { About } from './views/about/About';
 import { Work } from './views/work/Work';
+import { Contact } from './views/contact/Contact';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <About />
       <Work />
+      <Contact />
     </div>
   );
 }

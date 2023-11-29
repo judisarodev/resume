@@ -19,7 +19,7 @@ const Folder = ({ name, light, children }) => {
                 </div>
                 <div className="col-10" style={outsideColor}></div>
             </div>  
-            <div className="row" style={mainColor}>
+            <div className="row folder__content" style={mainColor}>
                { children }
             </div>
         </div>

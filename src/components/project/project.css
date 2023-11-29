@@ -3,6 +3,9 @@
     background-color: #2E3038;
     margin-bottom: 20px;
 }
+.project{
+    cursor: pointer;
+}
 
 .project__name {
     border-bottom: solid 2px #1F2027;

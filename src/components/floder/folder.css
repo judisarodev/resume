@@ -1,3 +1,6 @@
+.folder__content{
+    padding: 50px 10% 50px 10%;
+}
 .folder__title{
     height: 50px;
     font-size: 16px;

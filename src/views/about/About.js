@@ -1,5 +1,4 @@
 import React from "react";
-import './about.css';
 import { Folder } from "../../components/floder/Folder";
 
 const About = () => {
@@ -21,9 +20,9 @@ const About = () => {
 
 const AboutItem = ({ title, content }) => {
     return(
-        <div className="row justify-content-center m-5">
-            <div className="col-2 "><p>{ title }</p></div>
-            <div className="col-6"><p>{ content }</p></div>
+        <div className="row justify-content-center m-3">
+            <div className="col-3"><p>{ title }</p></div>
+            <div className="col-7"><p>{ content }</p></div>
         </div>
     );
 }
