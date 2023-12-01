@@ -7,8 +7,8 @@ const Menu = () => {
 
     const menuOptions = [
         { name: 'INCIO', active: true },
-        { name: 'INFOS', active: false },
         { name: 'PROYECTOS', active: false },
+        { name: 'INFOS', active: false },
         { name: 'CONTACTOS', active: false }
     ];
 
