@@ -14,7 +14,7 @@ const Work = () => {
     ];
 
     return(
-        <Folder name={'Poryectos'} light={true}>
+        <Folder name={'Poryectos'} light={true} id={'work'}>
             <div className="work">
                 { projects.map(project => <Project name={project.name} description={project.description} image={project.image} url={project.url}/>) }
             </div>

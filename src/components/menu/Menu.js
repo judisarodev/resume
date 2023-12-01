@@ -6,30 +6,34 @@ import './menu.css';
 const Menu = () => {
 
     const menuOptions = [
-        { name: 'INCIO', active: true },
-        { name: 'PROYECTOS', active: false },
-        { name: 'INFOS', active: false },
-        { name: 'CONTACTOS', active: false }
+        { name: 'INCIO' },
+        { name: 'PROYECTOS' },
+        { name: 'INFO' },
+        { name: 'CONTACTOS' }
     ];
+
+    const goToGithub = (e) => {
+        window.open('https://github.com/judisarodev', '_blank');    
+    }
 
     return(
         <div className="container">
         <div className="row d-flex menu align-items-center">
             {/* Name and picture */}
             <MenuSection>
-                <img src={me} alt='Foto' height={50} width={50}/>
-                <p className="m-0 menu__title"><span>J</span>uan <span>D</span>iego <span>S</span>anchez</p>
+                <img className="menu_clickable" src={me} alt='Foto' height={50} width={50}/>
+                <p className="m-0 menu__title menu_clickable"><span>J</span>uan <span>D</span>iego <span>S</span>anchez</p>
             </MenuSection>
             {/* Menu options */}
             <MenuSection>
-                <MenuOption name={menuOptions[0].name} active={menuOptions[0].active}/>
-                <MenuOption name={menuOptions[1].name} active={menuOptions[1].active}/>
-                <MenuOption name={menuOptions[2].name} active={menuOptions[2].active}/>
-                <MenuOption name={menuOptions[3].name} active={menuOptions[3].active}/>
+                <MenuOption name={menuOptions[0].name} id={'home'}/>
+                <MenuOption name={menuOptions[1].name} id={'work'}/>
+                <MenuOption name={menuOptions[2].name} id={'about'}/>
+                <MenuOption name={menuOptions[3].name} id={'contact'}/>
             </MenuSection>
             {/* Githum icon */}
             <MenuSection >
-                <FaGithub size={50}/>
+                <FaGithub size={50} className="menu_clickable" onClick={goToGithub}/>
             </MenuSection>
         </div>
         </div>
@@ -44,21 +48,21 @@ const MenuSection = ({ children }) => {
     );
 }
 
-const MenuOption = ({ name, active }) => {
-    
-    const underlineStyle = {
-        'height': active ? '2px' : '0px',
-        'background-color': 'white'
-    };
-
+const MenuOption = ({ name, id }) => {
     const textSytle = {
         'font-size': '12px'
     };
 
+    const scrollToView = (id) => {
+        const element = document.getElementById(id);
+        if(element){
+            element.scrollIntoView({behavior: 'smooth'});
+        }
+    }
+
     return(
         <div className="flex m-3">
-            <p className="m-0" style={textSytle}>{name}</p>
-            <div style={underlineStyle}></div>
+            <p className="menu__option m-0 menu_clickable" style={textSytle} onClick={() => scrollToView(id)}>{name}</p>
         </div>
     );
 }

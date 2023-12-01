@@ -10,7 +10,7 @@ const Contact = () => {
     const [message, setMessage] = useState('');
 
     return(
-        <Folder name={'Contacto'} light={true}>
+        <Folder name={'Contacto'} light={true} id={'contact'}>
             <form className="d-flex flex-column gap-2 form--contact">
                 <label>Nombre</label>
                 <input className="form__input" type="text" value={ name } onChange={(e) => setName(e.target.value)}/>

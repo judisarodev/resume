@@ -9,3 +9,17 @@ p{
 .menu__title span {
     font-size: 16px;
 }
+.menu__option:hover{
+    animation: grow 1s ease-in-out alternate infinite;
+}
+@keyframes grow {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.9);
+    }
+}
+.menu_clickable:hover{
+    cursor: pointer;
+}

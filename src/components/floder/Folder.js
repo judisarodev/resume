@@ -1,7 +1,7 @@
 import React from "react";
 import './folder.css';
 
-const Folder = ({ name, light, children }) => {
+const Folder = ({ name, light, children, id }) => {
 
     const mainColor = {
         'background-color': light ? '#2E3038' : '#1F2027'
@@ -12,7 +12,7 @@ const Folder = ({ name, light, children }) => {
     }
 
     return(
-        <div className="container-fluid folder">
+        <div className="container-fluid folder" id={ id }>
             <div className="row">
                 <div className="col-2" style={mainColor}>
                     <p className="folder__title text-center m-0 d-flex justify-content-center align-items-center">{ name }</p>
