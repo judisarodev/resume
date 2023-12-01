@@ -14,7 +14,9 @@ const About = () => {
             <div className="container">
                 {aboutData.map(item=><AboutItem title={item.title} content={item.content}/>)}
             </div>
+            Added
         </Folder>
+        
     );
 }
 
