@@ -17,7 +17,7 @@ const Menu = () => {
     }
 
     return(
-        <div className="container">
+        <div className="container" id="menu">
         <div className="row d-flex menu align-items-center">
             {/* Name and picture */}
             <MenuSection>

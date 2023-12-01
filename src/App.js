@@ -6,6 +6,7 @@ import { About } from './views/about/About';
 import { Work } from './views/work/Work';
 import { Contact } from './views/contact/Contact';
 import { Footer } from './components/footer/Footer';
+import { GoUpButton } from './components/go_up_button/GoUpButton';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Contact />
       <Footer />
+      <GoUpButton />
     </div>
   );
 }
