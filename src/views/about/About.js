@@ -10,7 +10,7 @@ const About = () => {
     ];
 
     return(
-        <Folder name={'Información'} id={'about'}>
+        <Folder name={'Información'} id={'about'} description={'Unas palabras sobre mi'}>
             <div className="container">
                 {aboutData.map(item=><AboutItem title={item.title} content={item.content}/>)}
             </div>

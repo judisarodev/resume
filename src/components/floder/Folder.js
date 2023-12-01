@@ -1,7 +1,7 @@
 import React from "react";
 import './folder.css';
 
-const Folder = ({ name, light, children, id }) => {
+const Folder = ({ name, light, children, id , description}) => {
 
     const mainColor = {
         'background-color': light ? '#2E3038' : '#1F2027'
@@ -20,7 +20,11 @@ const Folder = ({ name, light, children, id }) => {
                 <div className="col-10" style={outsideColor}></div>
             </div>  
             <div className="row folder__content" style={mainColor}>
-               { children }
+                <h6 className="folder__description text-center"> { description } </h6>
+                <div className="folder__divider">
+                    <div></div>
+                </div>
+                { children }
             </div>
         </div>
     );

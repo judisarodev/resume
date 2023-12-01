@@ -28,3 +28,28 @@
     font-size: 14px;
     padding: 10px 25px 10px 25px;
 }
+.logo{
+    animation: jump 3s ease-in-out infinite alternate;
+}
+
+.logo:hover{
+    animation: turnaround 1s ease-in-out infinite alternate;
+}
+
+@keyframes jump {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0.9);
+    }
+}
+
+@keyframes turnaround {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

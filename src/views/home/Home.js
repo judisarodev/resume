@@ -38,7 +38,7 @@ const Home = () => {
 
 const LanguageLogo = ({ logo }) => {
    return(
-    <div className="d-none d-lg-block col-lg-12 p-3 text-center"><img src={logo} alt="Spring Boot" height={100} width={100}/> </div>
+    <div className="d-none d-lg-block col-lg-12 p-3 text-center logo"><img src={logo} alt="Spring Boot" height={100} width={100}/> </div>
    ); 
 }
 
