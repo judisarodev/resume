@@ -1,5 +1,6 @@
 import React from "react";
 import { Folder } from "../../components/floder/Folder";
+import picture from '../../images/picture.jpg';
 
 const About = () => {
 
@@ -12,8 +13,17 @@ const About = () => {
     return(
         <Folder name={'Información'} id={'about'} description={'Unas palabras sobre mi'}>
             <div className="container">
-                {aboutData.map(item=><AboutItem title={item.title} content={item.content}/>)}
+                <div className="row">
+                    <div className="col-lg-6 col-sm-12">
+                        {aboutData.map(item=><AboutItem title={item.title} content={item.content}/>)}
+                    </div>
+                    <div className="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
+                        <img src={ picture }  alt="picutre" height={400} style={{ borderRadius: '20px' }} />
+                    </div>
+                </div>
             </div>
+            
+            
         </Folder>
         
     );
@@ -21,9 +31,9 @@ const About = () => {
 
 const AboutItem = ({ title, content }) => {
     return(
-        <div className="row justify-content-center m-3">
-            <div className="col-3"><p>{ title }</p></div>
-            <div className="col-7"><p>{ content }</p></div>
+        <div className="d-flex flex-column justify-content-center m-3">
+            <h6>{ title }</h6>
+            <p>{ content }</p>
         </div>
     );
 }

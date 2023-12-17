@@ -16,6 +16,8 @@
     margin-bottom: 20px;    
     border-radius: 5px;
     height: 40px;
+    color: black;
+    font-size: 14px;
 }
 .form--message{
     height: 180px;

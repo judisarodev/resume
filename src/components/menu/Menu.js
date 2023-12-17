@@ -5,13 +5,6 @@ import './menu.css';
 
 const Menu = () => {
 
-    const menuOptions = [
-        { name: 'INCIO' },
-        { name: 'PROYECTOS' },
-        { name: 'INFO' },
-        { name: 'CONTACTOS' }
-    ];
-
     const goToGithub = (e) => {
         window.open('https://github.com/judisarodev', '_blank');    
     }
@@ -21,15 +14,22 @@ const Menu = () => {
         <div className="row d-flex menu align-items-center">
             {/* Name and picture */}
             <MenuSection>
-                <img className="menu_clickable" src={me} alt='Foto' height={50} width={50}/>
-                <p className="m-0 menu__title menu_clickable"><span>J</span>uan <span>D</span>iego <span>S</span>anchez</p>
+                <div className="row">
+                    <div className="col-md-12 col-lg-4 p-0">
+                        <img className="menu_clickable" src={me} alt='Foto' height={50} width={50}/>
+                    </div>
+                    <div className="col-md-12 col-lg-8 p-0">
+                        <p className="m-0 menu__title menu_clickable"><span>J</span>uan <span>D</span>iego <span>S</span>anchez</p>
+                    </div>
+                    
+                </div>
             </MenuSection>
             {/* Menu options */}
             <MenuSection>
-                <MenuOption name={menuOptions[0].name} id={'home'}/>
-                <MenuOption name={menuOptions[1].name} id={'work'}/>
-                <MenuOption name={menuOptions[2].name} id={'about'}/>
-                <MenuOption name={menuOptions[3].name} id={'contact'}/>
+                <MenuOption name={'INCIO'} id={'home'}/>
+                <MenuOption name={'PROYECTOS'} id={'work'}/>
+                <MenuOption name={'INFO'} id={'about'}/>
+                <MenuOption name={'CONTACTOS'} id={'contact'}/>
             </MenuSection>
             {/* Githum icon */}
             <MenuSection >
