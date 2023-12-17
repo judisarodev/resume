@@ -10,7 +10,7 @@ const Footer = () => {
             </div>
             <div>
                 <p className="footer__item">Email</p>
-                <p className="m-0">judisaro@hotmail.com</p>
+                <p className="m-0">judisarodev@gmail.com</p>
             </div>
         </div>
     );

@@ -6,7 +6,7 @@ const GoUpButton = () => {
 
     return(
         <button className="goup__button" onClick={() => document.getElementById('menu').scrollIntoView({ behavior: 'smooth' })}>
-            <FaRegArrowAltCircleUp size={60}/>
+            <FaRegArrowAltCircleUp size={35}/>
         </button>
     );
 }

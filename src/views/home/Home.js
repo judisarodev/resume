@@ -17,18 +17,18 @@ const Home = () => {
     <Folder id={'home'}>
         <div className="container home">
         <div className="row">
-            <div className="col-md-3">
-                <div className="row">
+            <div className="col-lg-3 col-md-12 d-flex flex-column">
+                
                     <LanguageLogo logo={springLogo}/>
                     <LanguageLogo logo={javaLogo}/>
                     <LanguageLogo logo={reactLogo}/>
                     <LanguageLogo logo={javascriptLogo}/>
-                </div>
+                
             </div>
-            <div className="col-md-9 welcome sm-text-center">
+            <div className="col-sm-12 col-lg-9 welcome sm-text-center">
                 <h1 className="welcome__title">Hola,</h1>
                 <h3 className="welcome__subtitle">Soy Juan Diego Sánchez</h3>
-                <p className="welcome_text">Soy desarrollador web junior enfocado en React JS y Java Spring Boot. He construido proyectos personales para perfeccionar mis habilidades. Especializado en crear interfaces dinámicas con React y desarrollar servicios web con Java Spring Boot.</p>
+                <p className="welcome_text">Soy desarrollador backend junior, enfocado en Java Spring Boot. He construido proyectos personales para perfeccionar mis habilidades. Especializado desarrollar servicios web. También cuento con conocimientos en javascript y react js.</p>
                 <div className="d-block-flex">
                     {skills.map(skill => <Skill name={skill}/>)}
                 </div>
@@ -42,7 +42,7 @@ const Home = () => {
 
 const LanguageLogo = ({ logo }) => {
    return(
-    <div className="d-none d-lg-block col-lg-12 p-3 text-center"><img className="logo" src={logo} alt="Spring Boot" height={100} width={100}/> </div>
+    <div className="d-none d-lg-block col-lg-12 p-2 text-center m-auto"><img className="logo" src={logo} alt="Spring Boot" height={80} width={80}/> </div>
    ); 
 }
 

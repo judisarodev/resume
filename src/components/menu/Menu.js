@@ -15,11 +15,11 @@ const Menu = () => {
             {/* Name and picture */}
             <MenuSection>
                 <div className="row">
-                    <div className="col-md-12 col-lg-4 p-0">
+                    <div className="col-md-12 col-lg-4 p-0 text-center">
                         <img className="menu_clickable" src={me} alt='Foto' height={50} width={50}/>
                     </div>
                     <div className="col-md-12 col-lg-8 p-0">
-                        <p className="m-0 menu__title menu_clickable"><span>J</span>uan <span>D</span>iego <span>S</span>anchez</p>
+                        <p className="m-0 menu__title menu_clickable text-center"><span>J</span>uan <span>D</span>iego <span>S</span>anchez</p>
                     </div>
                     
                 </div>
@@ -28,8 +28,8 @@ const Menu = () => {
             <MenuSection>
                 <MenuOption name={'INCIO'} id={'home'}/>
                 <MenuOption name={'PROYECTOS'} id={'work'}/>
-                <MenuOption name={'INFO'} id={'about'}/>
-                <MenuOption name={'CONTACTOS'} id={'contact'}/>
+                <MenuOption name={'INFORMACIÓN'} id={'about'}/>
+                <MenuOption name={'CONTACTO'} id={'contact'}/>
             </MenuSection>
             {/* Githum icon */}
             <MenuSection >

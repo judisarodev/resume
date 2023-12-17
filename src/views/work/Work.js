@@ -3,12 +3,23 @@ import { Folder } from "../../components/floder/Folder";
 import './work.css';
 import { Project } from "../../components/project/Porject";
 import imageCalculator from '../../images/calculator_project.png';
+import imageBlog from '../../images/blog_project.png'
 
 const Work = () => {
 
     const projects = [
-        { name: 'Calculadora Básica', image: imageCalculator, description: 'Visita esta asombrosa calculadora. Es un clon de la calculadora de Windows 11. Realiza operaciones básicas con presición.', url: 'https://judisarodev.github.io/basic-calculator/' },
-
+        { 
+            name: 'Blog personal', 
+            image: imageBlog, 
+            description: 'En mis tiempos libres escribo. Te invito a visitar mi blog personal. Es un projecto que implementa spring boot. ', 
+            url: 'https://github.com/judisarodev/sofologos/' 
+        },
+        {
+            name: 'Calculadora Básica', 
+            image: imageCalculator, 
+            description: 'Visita mi clon de la calculadora de Windows 11. El proyecto se ejecutó usando react js.', 
+            url: 'https://judisarodev.github.io/basic-calculator/' 
+        }
     ];
 
     return(
