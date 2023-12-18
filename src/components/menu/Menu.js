@@ -42,7 +42,7 @@ const Menu = () => {
 
 const MenuSection = ({ children }) => {
     return(
-        <div className="col-lg-4 d-flex flex-row align-items-center gap-3 justify-content-center">
+        <div className="col-lg-4 d-flex flex-row align-items-center gap-3 justify-content-center" style={{marginBottom: '10px'}}>
             { children }
         </div>
     );
@@ -61,9 +61,13 @@ const MenuOption = ({ name, id }) => {
     }
 
     return(
-        <div className="flex m-3">
-            <p className="menu__option m-0 menu_clickable" style={textSytle} onClick={() => scrollToView(id)}>{name}</p>
+        <>
+        <div className="d-flex">
+            <p className="menu__option m-0 p-0 menu_clickable"style={textSytle} onClick={() => scrollToView(id)}>{ name }</p>
+            
         </div>
+        
+        </>
     );
 }
 
