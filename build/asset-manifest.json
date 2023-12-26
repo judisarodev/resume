@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b38a238.css",
-    "main.js": "/static/js/main.f4fc8dbe.js",
+    "main.css": "/static/css/main.e2db5d39.css",
+    "main.js": "/static/js/main.8a4b7cf9.js",
+    "static/media/programmer.jpg": "/static/media/programmer.4882c01ce619f33fdfc4.jpg",
     "static/media/me.png": "/static/media/me.c4973ef628771f55fccd.png",
     "static/media/blog_project.png": "/static/media/blog_project.8d4d8496ebcef53f36e5.png",
     "static/media/calculator_project.png": "/static/media/calculator_project.1f1bac941e080690eccc.png",
-    "static/media/picture.jpg": "/static/media/picture.f11a5056827d6bc805bc.jpg",
     "static/media/java_logo.png": "/static/media/java_logo.c5161c10ae0d466a5621.png",
     "static/media/react_logo.png": "/static/media/react_logo.8fe4fde06810651f68ef.png",
     "index.html": "/index.html",
-    "main.2b38a238.css.map": "/static/css/main.2b38a238.css.map",
-    "main.f4fc8dbe.js.map": "/static/js/main.f4fc8dbe.js.map"
+    "main.e2db5d39.css.map": "/static/css/main.e2db5d39.css.map",
+    "main.8a4b7cf9.js.map": "/static/js/main.8a4b7cf9.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b38a238.css",
-    "static/js/main.f4fc8dbe.js"
+    "static/css/main.e2db5d39.css",
+    "static/js/main.8a4b7cf9.js"
   ]
 }
