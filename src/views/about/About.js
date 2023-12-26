@@ -1,13 +1,13 @@
 import React from "react";
 import { Folder } from "../../components/floder/Folder";
-import picture from '../../images/picture.jpg';
+import picture from '../../images/programmer.jpg';
 
 const About = () => {
 
     const aboutData = [
-        { title: 'Unviersidad', content:'En la Universidad Libre, estoy cursando la carrera de Ingeniería de Sistemas, una disciplina que me sumerge en el mundo complejo y fascinante de la informática y la tecnología. Durante mi tiempo en la universidad, he adquirido conocimientos fundamentales en el área de la programación de software. ' },
-        { title: 'Cursos en linea', content:'Además de mi educación universitaria, estoy complementando activamente mi aprendizaje participando en cursos en línea a través de plataformas como Platzi, Coursera y Udemy. Estos cursos abarcan una amplia gama de temas relacionados con la tecnología y la ingeniería, desde desarrollos específicos de lenguajes de programación hasta habilidades más especializadas' },
-        { title: 'Idiomas', content:'Hablo español e inglés con un alto nivel de fluidez tanto en conversación como en escritura. Mi competencia en inglés se ha fortalecido a través de una experiencia laboral significativa en atención al cliente para un banco estadounidense, donde he interactuado diariamente con clientes de habla inglesa.' }
+        { title: 'Unviersidad', content:'En la Universidad Libre, estoy cursando la carrera de Ingeniería de Sistemas, una disciplina que me sumerge en el mundo fascinante de la informática. Durante este tiempo, he adquirido conocimientos en el área de la programación de software. ' },
+        { title: 'Cursos en linea', content:'Además de mi educación universitaria, estoy complementando activamente mi aprendizaje participando en cursos en línea a través de plataformas reconocidas. Estos cursos abarcan una amplia gama de temas relacionados con la tecnología' },
+        { title: 'Idiomas', content:'Hablo español e inglés con un alto nivel de fluidez. Mi competencia en inglés se ha fortalecido a través de una experiencia laboral significativa en atención al cliente para un banco estadounidense, donde he interactuado diariamente con clientes de habla inglesa.' }
     ];
 
     return(
@@ -17,8 +17,8 @@ const About = () => {
                     <div className="col-lg-6 col-sm-12">
                         {aboutData.map(item=><AboutItem title={item.title} content={item.content}/>)}
                     </div>
-                    <div className="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
-                        <img src={ picture }  alt="picutre" height={400} style={{ borderRadius: '20px' }} />
+                    <div className="col-lg-6 d-none d-sm-flex justify-content-center align-items-center">
+                        <img src={ picture }  alt="picutre" height={230} style={{ borderRadius: '20px' }} />
                     </div>
                 </div>
             </div>

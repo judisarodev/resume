@@ -29,7 +29,6 @@ const Menu = () => {
                 <MenuOption name={'INCIO'} id={'home'}/>
                 <MenuOption name={'PROYECTOS'} id={'work'}/>
                 <MenuOption name={'INFORMACIÓN'} id={'about'}/>
-                <MenuOption name={'CONTACTO'} id={'contact'}/>
             </MenuSection>
             {/* Githum icon */}
             <MenuSection >

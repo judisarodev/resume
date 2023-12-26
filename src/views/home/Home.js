@@ -28,7 +28,7 @@ const Home = () => {
             <div className="col-sm-12 col-lg-9 welcome sm-text-center">
                 <h1 className="welcome__title">Hola,</h1>
                 <h3 className="welcome__subtitle">Soy Juan Diego Sánchez</h3>
-                <p className="welcome_text">Soy desarrollador backend junior, enfocado en Java Spring Boot. He construido proyectos personales para perfeccionar mis habilidades. Especializado desarrollar servicios web. También cuento con conocimientos en javascript y react js.</p>
+                <p className="welcome_text">Desarrollador backend junior, enfocado en Java Spring Boot </p>
                 <div className="d-block-flex">
                     {skills.map(skill => <Skill name={skill}/>)}
                 </div>
