@@ -5,7 +5,7 @@ import picture from '../../images/programmer.jpg';
 const About = () => {
 
     const aboutData = [
-        { title: 'Unviersidad', content:'En la Universidad Libre, estoy cursando la carrera de Ingeniería de Sistemas, una disciplina que me sumerge en el mundo fascinante de la informática. Durante este tiempo, he adquirido conocimientos en el área de la programación de software. ' },
+        { title: 'Universidad', content:'En la Universidad Libre, estoy cursando la carrera de Ingeniería de Sistemas, una disciplina que me sumerge en el mundo fascinante de la informática. Durante este tiempo, he adquirido conocimientos en el área de la programación de software. ' },
         { title: 'Cursos en linea', content:'Además de mi educación universitaria, estoy complementando activamente mi aprendizaje participando en cursos en línea a través de plataformas reconocidas. Estos cursos abarcan una amplia gama de temas relacionados con la tecnología' },
         { title: 'Idiomas', content:'Hablo español e inglés con un alto nivel de fluidez. Mi competencia en inglés se ha fortalecido a través de una experiencia laboral significativa en atención al cliente para un banco estadounidense, donde he interactuado diariamente con clientes de habla inglesa.' }
     ];

@@ -9,7 +9,7 @@ const Work = () => {
 
     const projects = [
         { 
-            name: 'Blog personal', 
+            name: 'Blog Personal', 
             image: imageBlog, 
             description: 'En mis tiempos libres escribo. Te invito a visitar mi blog personal. Es un projecto que implementa spring boot. ', 
             url: 'https://github.com/judisarodev/sofologos/' 

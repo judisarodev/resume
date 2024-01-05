@@ -7,7 +7,7 @@ import './home.css';
 import { Folder } from "../../components/floder/Folder";
 
 const skills = [
-    'Java SE', 'POO', 'Spirng Boot', 'Spring JPA', 'Spring Security', 'REST','Inyección de dependencias', 'Inversión de control',
+    'Java SE', 'POO', 'Spring Boot', 'Spring JPA', 'Spring Security', 'REST','Inyección de dependencias', 'Inversión de control',
     'Javascript', 'ESC6', 'Design', 'SQL',
     'React JS', 'Hooks', 'React Context', 'React Router', 'Github'
 ];
