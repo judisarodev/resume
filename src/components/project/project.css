@@ -13,6 +13,10 @@
 }
 .project__image{
     padding: 10px;
+    
+}
+.project__image{
+    height: 465px;
 }
 .project__description{
     border-top: solid 2px #1F2027;
